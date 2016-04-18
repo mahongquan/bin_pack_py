@@ -6,6 +6,9 @@ class Node:
         self.w=w
         self.h=h
         self.fit=None
+        self.rotate=False
+        self.right=None
+        self.down=None
 class Packer:# = function(w, h) {
   def __init__(self,w,h):
     self.init(w, h);

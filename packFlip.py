@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding:Utf-8 -*-
 from pprint import pprint
-from Tkinter import *
+from tkinter import *
 import math
 import random
 class Block:
@@ -63,19 +63,19 @@ if __name__=="__main__":
     # blocks = list()
     # i=0
     # while i < 2 :
-    #     blocks.append(Block(90, 230))
-    #     i += 1
+        # blocks.append(Block(90, 230))
+        # i += 1
     # i = 0
     # while i < 10 :
-    #     block = Block(115, 166)
-    #     #if i in [0,1,2,3]:
-    #     #    block.flip()
-    #     blocks.append(block)
-    #     i += 1
+        # block = Block(115, 166)
+        # #if i in [0,1,2,3]:
+        # #    block.flip()
+        # blocks.append(block)
+        # i += 1
     # i = 0
     # while i < 0 :
-    #     blocks.append(Block(186, 129))
-    #     i += 1
+        # blocks.append(Block(186, 129))
+        # i += 1
     def showxy(event):
         xm, ym = event.x, event.y
         str1 = "mouse at x=%d  y=%d" % (xm, ym)
