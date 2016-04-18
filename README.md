@@ -1,2 +1,2 @@
-# bin_pack_py
-# texture packer
+#texturepacker.py
+#texture packer
