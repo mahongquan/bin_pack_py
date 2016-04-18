@@ -9,6 +9,7 @@ class Node:
         self.rotate=False
         self.right=None
         self.down=None
+        self.filename=None
 class Packer:# = function(w, h) {
   def __init__(self,w,h):
     self.init(w, h);
